@@ -1,1 +1,13 @@
-// You can add dynamic functionality here if needed, such as fetching latest news articles from an API
+document.addEventListener('DOMContentLoaded', (event) => {
+    const articles = document.querySelectorAll('.article');
+
+    articles.forEach(article => {
+        article.addEventListener('mouseover', () => {
+            article.classList.add('hovered');
+        });
+
+        article.addEventListener('mouseout', () => {
+            article.classList.remove('hovered');
+        });
+    });
+});
