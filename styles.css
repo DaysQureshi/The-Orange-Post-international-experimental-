@@ -32,7 +32,7 @@ main {
     padding: 2rem;
 }
 
-#featured {
+#featured, #opinion {
     flex: 3;
 }
 
