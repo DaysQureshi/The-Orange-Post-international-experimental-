@@ -27,18 +27,15 @@ header nav ul li a {
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
     padding: 2rem;
 }
 
 #featured, #opinion {
-    flex: 3;
+    margin-bottom: 2rem;
 }
 
 #latest {
-    flex: 1;
-    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 
 .article {
